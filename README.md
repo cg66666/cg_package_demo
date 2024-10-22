@@ -1,1 +1,3 @@
-# cg_package_demo
+**cg-package-demo**
+
+Total TypeScript的一个演示包。

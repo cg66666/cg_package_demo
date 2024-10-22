@@ -1,0 +1,32 @@
+{
+  "name": "cg-package-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A demo package for Total TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "ci": "npm run build"
+  },
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/cg66666/cg_package_demo",
+  "bugs": {
+    "url": "https://github.com/cg66666/cg_package_demo/issues"
+  },
+  "author": "cg <915373240@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cg66666/cg_package_demo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  }
+}
