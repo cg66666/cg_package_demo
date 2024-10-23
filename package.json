@@ -1,6 +1,6 @@
 {
   "name": "cg-package-demo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "A demo package for Total TypeScript",
   "main": "dist/index.js",
