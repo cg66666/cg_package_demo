@@ -1,6 +1,6 @@
 {
   "name": "cg-package-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "A demo package for Total TypeScript",
   "main": "dist/index.js",
@@ -12,8 +12,8 @@
     "test": "vitest run",
     "dev": "vitest",
     "ci": "npm run build && npm run check-format && npm run check-exports && npm run test",
-    "local-release": "changeset version && changeset publish",
-    "prepublishOnly": "npm run ci"
+    "prepublishOnly": "npm run ci",
+    "local-release": "changeset version && changeset publish"
   },
   "keywords": [
     "demo",
